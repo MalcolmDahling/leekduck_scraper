@@ -1,5 +1,6 @@
 const { default: puppeteer } = require('puppeteer');
 const fs = require('fs');
+const path = require('path');
 
 async function getEvents(eventType){
 
@@ -73,7 +74,9 @@ async function getEvents(eventType){
             events[i].color = colors[i];
         }
 
-        fs.writeFile('./output/currentEvents.json', JSON.stringify(events), err => {
+        const filePath = path.join(__dirname, 'output', './upcomingEvents.json');
+
+        fs.writeFile(filePath, JSON.stringify(events), err => {
 
             if(err){console.log(err);}
         });
@@ -103,7 +106,9 @@ async function getEvents(eventType){
             events[i].color = colors[i];
         }
 
-        fs.writeFile('./output/upcomingEvents.json', JSON.stringify(events), err => {
+        const filePath = path.join(__dirname, 'output', './upcomingEvents.json');
+
+        fs.writeFile(filePath, JSON.stringify(events), err => {
 
             if(err){console.log(err);}
         });

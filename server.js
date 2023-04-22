@@ -3,7 +3,7 @@ const path = require('path');
 const { getEvents } = require('./getEvents');
 
 const server = express();
-const PORT = 3031;
+const PORT = 3032;
 
 //update once at startup
 getEvents('current');

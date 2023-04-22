@@ -44,7 +44,8 @@ async function getEvents(eventType){
             date:event[2],
             ends:event[3],
             color:'',
-            img:''
+            img:'',
+            url:''
         };
     });
 
@@ -68,10 +69,16 @@ async function getEvents(eventType){
             return styles
         });
 
+        const urls = await page.evaluate(() => {
+
+            return Array.from(document.querySelectorAll(`body > div > article > div > div > div.events-list.current-events > span > a:not(.hide-event)`), el => el.href);
+        });
+
         for(let i = 0; i < events.length; i++){
 
             events[i].img = images[i];
             events[i].color = colors[i];
+            events[i].url = urls[i];
         }
 
         const filePath = path.join(__dirname, 'output', './upcomingEvents.json');
@@ -100,10 +107,16 @@ async function getEvents(eventType){
             return styles
         });
 
+        const urls = await page.evaluate(() => {
+
+            return Array.from(document.querySelectorAll(`body > div > article > div > div > div.events-list.current-events > span > a:not(.hide-event)`), el => el.href);
+        });
+
         for(let i = 0; i < events.length; i++){
 
             events[i].img = images[i];
             events[i].color = colors[i];
+            events[i].url = urls[i];
         }
 
         const filePath = path.join(__dirname, 'output', './upcomingEvents.json');

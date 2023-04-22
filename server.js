@@ -1,8 +1,10 @@
 const express = require('express');
 const path = require('path');
 const { getEvents } = require('./getEvents');
+const cors = require('cors');
 
 const server = express();
+server.use(cors());
 const PORT = 3032;
 
 //update once at startup

@@ -37,19 +37,18 @@ async function getEvents(eventType){
 
     //turn into objects
     events = events.map(event => {
-
         return {
             type:event[0],
             name:event[1],
             date:event[2],
-            ends:event[3],
+            endsOrStarts:event[3],
             color:'',
             img:'',
             url:''
         };
     });
 
-
+    
     if(eventType === 'current'){
 
         const images = await page.evaluate(() => {

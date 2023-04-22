@@ -81,7 +81,7 @@ async function getEvents(eventType){
             events[i].url = urls[i];
         }
 
-        const filePath = path.join(__dirname, 'output', './upcomingEvents.json');
+        const filePath = path.join(__dirname, 'output', './currentEvents.json');
 
         fs.writeFile(filePath, JSON.stringify(events), err => {
 
@@ -109,7 +109,7 @@ async function getEvents(eventType){
 
         const urls = await page.evaluate(() => {
 
-            return Array.from(document.querySelectorAll(`body > div > article > div > div > div.events-list.current-events > span > a:not(.hide-event)`), el => el.href);
+            return Array.from(document.querySelectorAll(`body > div > article > div > div > div.events-list.upcoming-events > span > a:not(.hide-event)`), el => el.href);
         });
 
         for(let i = 0; i < events.length; i++){

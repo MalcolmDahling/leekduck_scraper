@@ -12,12 +12,12 @@ async function getEvents(eventType) {
     console.log(err);
   }
 
-  let events;
+  let events = [];
 
   if (eventType === 'current') {
     try {
       events = await page.evaluate(() => {
-        return Array.from(document.querySelectorAll('body > div > article > div > div > div.events-list.current-events > span > a:not(.hide-event)'), (el) => el.textContent.replace(/\t|\n/g, '').split('   '));
+        return Array.from(document.querySelectorAll('body > div > article > div > div > div.events-list.current-events > span > a:not(.hide-event)'), (el) => el.textContent.replace(/\t|\n/g, 'ööö').split('ööö'));
       });
     } catch (err) {
       console.log(err);
@@ -27,7 +27,7 @@ async function getEvents(eventType) {
   if (eventType === 'upcoming') {
     try {
       events = await page.evaluate(() => {
-        return Array.from(document.querySelectorAll('body > div > article > div > div > div.events-list.upcoming-events > span > a:not(.hide-event)'), (el) => el.textContent.replace(/\t|\n/g, '').split('   '));
+        return Array.from(document.querySelectorAll('body > div > article > div > div > div.events-list.upcoming-events > span > a:not(.hide-event)'), (el) => el.textContent.replace(/\t|\n/g, 'ööö').split('ööö'));
       });
     } catch (err) {
       console.log(err);
@@ -42,6 +42,8 @@ async function getEvents(eventType) {
 
   //remove double spaces
   events = events.map((arr) => arr.map((str) => str.replace(/\s{2,}/g, ' ').trim()));
+
+  console.log(events);
 
   //turn into objects
   events = events.map((event) => {

@@ -1,0 +1,164 @@
+[
+  {
+    "type": "Raid Hour",
+    "name": "Tapu Bulu Raid Hour",
+    "date": "Wed, Apr 24, at 6:00 PM Local Time",
+    "endsOrStarts": "Starts: 0 day 22 hours 11 min",
+    "color": "rgb(192, 57, 43)",
+    "img": "https://leekduck.com/cdn-cgi/image/fit=scale-down,height=95,quality=100,format=webp/assets/img/events/raidhour.jpg",
+    "url": "https://leekduck.com/events/raidhour202404124/"
+  },
+  {
+    "type": "Raid Battles",
+    "name": "Mega Aggron in Mega Raids",
+    "date": "Thu, Apr 25, at 10:00 AM Local Time",
+    "endsOrStarts": "Starts: 1 day 14 hours 11 min",
+    "color": "rgb(192, 57, 43)",
+    "img": "https://leekduck.com/cdn-cgi/image/fit=scale-down,height=95,quality=100,format=webp/assets/img/events/mega-default.jpg",
+    "url": "https://leekduck.com/events/mega-aggron-in-mega-raids-april-2024/"
+  },
+  {
+    "type": "Raid Battles",
+    "name": "Registeel in 5-star Raid Battles",
+    "date": "Thu, Apr 25, at 10:00 AM Local Time",
+    "endsOrStarts": "Starts: 1 day 14 hours 11 min",
+    "color": "rgb(192, 57, 43)",
+    "img": "https://leekduck.com/cdn-cgi/image/fit=scale-down,height=95,quality=100,format=webp/assets/img/events/registeel.jpg",
+    "url": "https://leekduck.com/events/registeel-in-5-star-raid-battles-april-2024/"
+  },
+  {
+    "type": "GO Battle League",
+    "name": "Great League and Master Premier | World of Wonders",
+    "date": "Fri, Apr 26, at 10:00 PM CS",
+    "endsOrStarts": "Starts: 3 days 2 hours 11 min",
+    "color": "rgb(142, 68, 173)",
+    "img": "https://leekduck.com/cdn-cgi/image/fit=scale-down,height=95,quality=100,format=webp/assets/img/events/gobattle-greatleague-key.jpg",
+    "url": "https://leekduck.com/events/gbl-world-of-wonders_great-league_master-premier/"
+  },
+  {
+    "type": "Event",
+    "name": "Cleffa Hatch Day",
+    "date": "Sun, Apr 28, at 2:00 PM Local Time",
+    "endsOrStarts": "Starts: 4 days 18 hours 11 min",
+    "color": "rgb(39, 174, 96)",
+    "img": "https://leekduck.com/cdn-cgi/image/fit=scale-down,height=95,quality=100,format=webp/assets/img/events/hatch-day-cleffa.jpg",
+    "url": "https://leekduck.com/events/cleffa-hatch-day/"
+  },
+  {
+    "type": "Pokémon Spotlight Hour",
+    "name": "Clefairy Spotlight Hour",
+    "date": "Tue, Apr 30, at 6:00 PM Local Time",
+    "endsOrStarts": "Starts: 6 days 22 hours 11 min",
+    "color": "rgb(229, 142, 38)",
+    "img": "https://leekduck.com/cdn-cgi/image/fit=scale-down,height=95,quality=100,format=webp/assets/img/events/pokemonspotlighthour.jpg",
+    "url": "https://leekduck.com/events/pokemonspotlighthour2024-04-30/"
+  },
+  {
+    "type": "Raid Hour",
+    "name": "Registeel Raid Hour",
+    "date": "Wed, May 1, at 6:00 PM Local Time",
+    "endsOrStarts": "Starts: 7 days 22 hours 11 min",
+    "color": "rgb(192, 57, 43)",
+    "img": "https://leekduck.com/cdn-cgi/image/fit=scale-down,height=95,quality=100,format=webp/assets/img/events/raidhour.jpg",
+    "url": "https://leekduck.com/events/raidhour20240501/"
+  },
+  {
+    "type": "GO Battle League",
+    "name": "Ultra League and Great League Remix | World of Wonders",
+    "date": "Fri, May 3, at 10:00 PM CS",
+    "endsOrStarts": "Starts: 10 days 2 hours 11 min",
+    "color": "rgb(142, 68, 173)",
+    "img": "https://leekduck.com/cdn-cgi/image/fit=scale-down,height=95,quality=100,format=webp/assets/img/events/go-battle-league-ultra-league-machamp-swampert.jpg",
+    "url": "https://leekduck.com/events/gbl-world-of-wonders_ultra-league_great-league-remix/"
+  },
+  {
+    "type": "Event",
+    "name": "GO Battle Week: World of Wonder",
+    "date": "Sat, May 4, at 12:00 AM Local Time",
+    "endsOrStarts": "Starts: 10 days 4 hours 11 min",
+    "color": "rgb(39, 174, 96)",
+    "img": "https://leekduck.com/cdn-cgi/image/fit=scale-down,height=95,quality=100,format=webp/assets/img/events/go-battle-league-season-18-world-of-wonder.jpg",
+    "url": "https://leekduck.com/events/go-battle-week-world-of-wonder/"
+  },
+  {
+    "type": "GO Battle League",
+    "name": "Master League and Great League Remix | World of Wonders",
+    "date": "Fri, May 10, at 10:00 PM CS",
+    "endsOrStarts": "Starts: 17 days 2 hours 11 min",
+    "color": "rgb(142, 68, 173)",
+    "img": "https://leekduck.com/cdn-cgi/image/fit=scale-down,height=95,quality=100,format=webp/assets/img/events/gobattleleague-master-key.jpg",
+    "url": "https://leekduck.com/events/gbl-world-of-wonders_master-league_great-league-remix-copy/"
+  },
+  {
+    "type": "Event",
+    "name": "Unannounced Event on May 11",
+    "date": "Sat, May 11, at 2:00 PM Local Time",
+    "endsOrStarts": "Starts: 17 days 18 hours 11 min",
+    "color": "rgb(39, 174, 96)",
+    "img": "https://leekduck.com/cdn-cgi/image/fit=scale-down,height=95,quality=100,format=webp/assets/img/events/events-default-img.jpg",
+    "url": "https://leekduck.com/events/unannounced-season18-event-may-11/"
+  },
+  {
+    "type": "GO Battle League",
+    "name": "Catch Cup: Little Edition and Catch Cup: Great League Edition | World of Wonders",
+    "date": "Fri, May 17, at 10:00 PM CS",
+    "endsOrStarts": "Starts: 24 days 2 hours 11 min",
+    "color": "rgb(142, 68, 173)",
+    "img": "https://leekduck.com/cdn-cgi/image/fit=scale-down,height=95,quality=100,format=webp/assets/img/events/gobattle-greatleague-key.jpg",
+    "url": "https://leekduck.com/events/gbl-world-of-wonders_catch-cup-little-edition_catch-cup-great-league-edition/"
+  },
+  {
+    "type": "Community Day",
+    "name": "May Community Day",
+    "date": "Sun, May 19, at 2:00 PM Local Time",
+    "endsOrStarts": "Starts: 25 days 18 hours 11 min",
+    "color": "rgb(22, 96, 169)",
+    "img": "https://leekduck.com/cdn-cgi/image/fit=scale-down,height=95,quality=100,format=webp/assets/img/events/cd-default.jpg",
+    "url": "https://leekduck.com/events/may-communityday2024/"
+  },
+  {
+    "type": "GO Battle League",
+    "name": "Great League, Ultra League, and Master League | World of Wonders",
+    "date": "Fri, May 24, at 10:00 PM CS",
+    "endsOrStarts": "Starts: 31 days 2 hours 11 min",
+    "color": "rgb(142, 68, 173)",
+    "img": "https://leekduck.com/cdn-cgi/image/fit=scale-down,height=95,quality=100,format=webp/assets/img/events/go-battle-league-season-18-world-of-wonder.jpg",
+    "url": "https://leekduck.com/events/gbl-world-of-wonders_great-league_ultra-league_master-league-split-3/"
+  },
+  {
+    "type": "Pokémon GO Fest",
+    "name": "Pokémon GO Fest 2024: Sendai, Japan",
+    "date": "Thu, May 30, at 2:30 AM CS",
+    "endsOrStarts": "Starts: 36 days 6 hours 41 min",
+    "color": "rgb(21, 61, 148)",
+    "img": "https://leekduck.com/cdn-cgi/image/fit=scale-down,height=95,quality=100,format=webp/assets/img/events/pokemon-go-fest-2024-sendai-japan-key.jpg",
+    "url": "https://leekduck.com/events/pokemon-go-fest-2024-sendai-japan/"
+  },
+  {
+    "type": "Pokémon GO Fest",
+    "name": "Pokémon GO Fest 2024: Madrid, Spain",
+    "date": "Fri, Jun 14, at 9:00 AM CS",
+    "endsOrStarts": "Starts: 51 days 13 hours 11 min",
+    "color": "rgb(21, 61, 148)",
+    "img": "https://leekduck.com/cdn-cgi/image/fit=scale-down,height=95,quality=100,format=webp/assets/img/events/pokemon-go-fest-2024-madrid-spain-key.jpg",
+    "url": "https://leekduck.com/events/pokemon-go-fest-2024-madrid-spain/"
+  },
+  {
+    "type": "Pokémon GO Fest",
+    "name": "Pokémon GO Fest 2024: New York City, USA",
+    "date": "Fri, Jul 5, at 6:00 PM CS",
+    "endsOrStarts": "Starts: 72 days 22 hours 11 min",
+    "color": "rgb(21, 61, 148)",
+    "img": "https://leekduck.com/cdn-cgi/image/fit=scale-down,height=95,quality=100,format=webp/assets/img/events/pokemon-go-fest-2024-new-york-city-usa-key.jpg",
+    "url": "https://leekduck.com/events/pokemon-go-fest-2024-new-york-city-usa/"
+  },
+  {
+    "type": "Pokémon GO Fest",
+    "name": "Pokémon GO Fest 2024: Global",
+    "date": "Sat, Jul 13, at 10:00 AM Local Time",
+    "endsOrStarts": "Starts: 80 days 14 hours 11 min",
+    "color": "rgb(21, 61, 148)",
+    "img": "https://leekduck.com/cdn-cgi/image/fit=scale-down,height=95,quality=100,format=webp/assets/img/events/pokemon-go-fest-2024-global-key.jpg",
+    "url": "https://leekduck.com/events/pokemon-go-fest-2024-global/"
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "type": "Raid Battles",
+    "name": "Mega Heracross in Mega Raids",
+    "date": "Thu, Apr 25, at 10:00 AM Local Time",
+    "endsOrStarts": "Ends: 1 day 14 hours 11 min",
+    "color": "rgb(192, 57, 43)",
+    "img": "https://leekduck.com/cdn-cgi/image/fit=scale-down,height=95,quality=100,format=webp/assets/img/events/mega-default.jpg",
+    "url": "https://leekduck.com/events/mega-heracross-in-mega-raids-april-2024/"
+  },
+  {
+    "type": "Raid Battles",
+    "name": "Tapu Bulu in 5-star Raid Battles",
+    "date": "Thu, Apr 25, at 10:00 AM Local Time",
+    "endsOrStarts": "Ends: 1 day 14 hours 11 min",
+    "color": "rgb(192, 57, 43)",
+    "img": "https://leekduck.com/cdn-cgi/image/fit=scale-down,height=95,quality=100,format=webp/assets/img/events/tapu-bulu.jpg",
+    "url": "https://leekduck.com/events/tapu-bulu-in-5-star-raid-battles-april-2024/"
+  },
+  {
+    "type": "Event",
+    "name": "Sustainability Week 2024",
+    "date": "Fri, Apr 26, at 8:00 PM Local Time",
+    "endsOrStarts": "Ends: 3 days 0 hour 11 min",
+    "color": "rgb(39, 174, 96)",
+    "img": "https://leekduck.com/cdn-cgi/image/fit=scale-down,height=95,quality=100,format=webp/assets/img/events/sustainability-week-2024.jpg",
+    "url": "https://leekduck.com/events/sustainability-week-2024/"
+  },
+  {
+    "type": "GO Battle League",
+    "name": "Great League, Ultra League, and Master League | World of Wonders",
+    "date": "Fri, Apr 26, at 10:00 PM CS",
+    "endsOrStarts": "Ends: 3 days 2 hours 11 min",
+    "color": "rgb(142, 68, 173)",
+    "img": "https://leekduck.com/cdn-cgi/image/fit=scale-down,height=95,quality=100,format=webp/assets/img/events/go-battle-league-season-18-world-of-wonder.jpg",
+    "url": "https://leekduck.com/events/gbl-world-of-wonders_great-league_ultra-league_master-league-split-2/"
+  },
+  {
+    "type": "Raid Battles",
+    "name": "Shadow Entei in Shadow Raids",
+    "date": "Sun, Apr 28, at 10:00 PM Local Time",
+    "endsOrStarts": "Ends: 5 days 2 hours 11 min",
+    "color": "rgb(192, 57, 43)",
+    "img": "https://leekduck.com/cdn-cgi/image/fit=scale-down,height=95,quality=100,format=webp/assets/img/events/events-default-img.jpg",
+    "url": "https://leekduck.com/events/shadow-entei-in-shadow-raids-world-of-wonder/"
+  },
+  {
+    "type": "Event",
+    "name": "Rediscover Kanto",
+    "date": "Fri, May 10, at 5:00 AM CS",
+    "endsOrStarts": "Ends: 16 days 9 hours 11 min",
+    "color": "rgb(39, 174, 96)",
+    "img": "https://leekduck.com/cdn-cgi/image/fit=scale-down,height=95,quality=100,format=webp/assets/img/events/rediscover-kanto.jpg",
+    "url": "https://leekduck.com/events/rediscover-kanto/"
+  },
+  {
+    "type": "Season",
+    "name": "World of Wonders",
+    "date": "Sat, Jun 1, at 10:00 AM Local Time",
+    "endsOrStarts": "Ends: 38 days 14 hours 11 min",
+    "color": "rgb(56, 173, 169)",
+    "img": "https://leekduck.com/cdn-cgi/image/fit=scale-down,height=95,quality=100,format=webp/assets/img/events/season-14-world-of-wonder.jpg",
+    "url": "https://leekduck.com/events/season-14-world-of-wonders/"
+  },
+  {
+    "type": "Research Breakthrough",
+    "name": "World of Wonders Research Breakthrough",
+    "date": "Sat, Jun 1, at 10:00 AM Local Time",
+    "endsOrStarts": "Ends: 38 days 14 hours 11 min",
+    "color": "rgb(121, 85, 72)",
+    "img": "https://leekduck.com/cdn-cgi/image/fit=scale-down,height=95,quality=100,format=webp/assets/img/events/SpringResearchBreakthrough.jpg",
+    "url": "https://leekduck.com/events/season-14-world-of-wonders-research-breakthrough/"
+  },
+  {
+    "type": "Ticketed",
+    "name": "The Wonder Ticket",
+    "date": "Fri, Jun 14, at 8:00 PM Local Time",
+    "endsOrStarts": "Ends: 52 days 0 hour 11 min",
+    "color": "rgb(222, 62, 155)",
+    "img": "https://leekduck.com/cdn-cgi/image/fit=scale-down,height=95,quality=100,format=webp/assets/img/events/wonder-ticket-part2.jpg",
+    "url": "https://leekduck.com/events/the-wonder-ticket/"
+  }
+]

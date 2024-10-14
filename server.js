@@ -19,6 +19,14 @@ setInterval(() => {
 
 let options = { root: path.join(__dirname) };
 
+server.use(
+  cors({
+    origin: 'http://localhost:3030',
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+    credentials: true,
+  }),
+);
+
 server.get('/currentEvents', (req, res) => {
   res.sendFile('./output/currentEvents.json', options);
 });

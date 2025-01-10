@@ -1,1 +1,82 @@
-[]
+[
+  {
+    "url": "https://leekduck.com/events/january-max-battles-split-1-2025/",
+    "type": "Max Battles",
+    "name": "Max Battles - January 6 to January 13",
+    "date": "Mon, Jan 13, at 9:00 PM Local Time",
+    "endsOrStarts": "Ends",
+    "endsOrStartsTime": "3 days 3 hours 58 min",
+    "image": "https://cdn.leekduck.com/cdn-cgi/image/fit=scale-down,height=95,quality=100,format=webp/assets/img/events/power-spots-max-battles.jpg",
+    "color": "rgb(129, 19, 86)"
+  },
+  {
+    "url": "https://leekduck.com/events/gbl-dual-destiny_ultra-league_color-cup-great-league-edition/",
+    "type": "GO Battle League",
+    "name": "Ultra League and Color Cup: Great League Edition | Dual Destiny",
+    "date": "Tue, Jan 14, at 10:00 PM CN",
+    "endsOrStarts": "Ends",
+    "endsOrStartsTime": "4 days 4 hours 58 min",
+    "image": "https://cdn.leekduck.com/cdn-cgi/image/fit=scale-down,height=95,quality=100,format=webp/assets/img/events/go-battle-league-ultra-league-machamp-swampert.jpg",
+    "color": "rgb(142, 68, 173)"
+  },
+  {
+    "url": "https://leekduck.com/events/mega-lopunny-in-mega-raids-january-2024/",
+    "type": "Raid Battles",
+    "name": "Mega Lopunny in Mega Raids",
+    "date": "Thu, Jan 16, at 10:00 AM Local Time",
+    "endsOrStarts": "Ends",
+    "endsOrStartsTime": "5 days 16 hours 58 min",
+    "image": "https://cdn.leekduck.com/cdn-cgi/image/fit=scale-down,height=95,quality=100,format=webp/assets/img/events/mega-default.jpg",
+    "color": "rgb(192, 57, 43)"
+  },
+  {
+    "url": "https://leekduck.com/events/palkia-in-5-star-raid-battles-january-2025/",
+    "type": "Raid Battles",
+    "name": "Palkia in 5-star Raid Battles",
+    "date": "Thu, Jan 16, at 10:00 AM Local Time",
+    "endsOrStarts": "Ends",
+    "endsOrStartsTime": "5 days 16 hours 58 min",
+    "image": "https://cdn.leekduck.com/cdn-cgi/image/fit=scale-down,height=95,quality=100,format=webp/assets/img/events/palkiaraid.jpg",
+    "color": "rgb(192, 57, 43)"
+  },
+  {
+    "url": "https://leekduck.com/events/fashion-week-2025/",
+    "type": "Event",
+    "name": "Fashion Week 2025",
+    "date": "Sun, Jan 19, at 8:00 PM Local Time",
+    "endsOrStarts": "Ends",
+    "endsOrStartsTime": "9 days 2 hours 58 min",
+    "image": "https://cdn.leekduck.com/cdn-cgi/image/fit=scale-down,height=95,quality=100,format=webp/assets/img/events/article-images/2025/2025-01-10-fashion-week-2025/fashion-week-2025.jpg?v2",
+    "color": "rgb(39, 174, 96)"
+  },
+  {
+    "url": "https://leekduck.com/events/shadow-registeel-in-shadow-raids-dual-destiny/",
+    "type": "Raid Battles",
+    "name": "Shadow Registeel in Shadow Raids in January",
+    "date": "Sun, Jan 26, at 10:00 PM Local Time",
+    "endsOrStarts": "Ends",
+    "endsOrStartsTime": "16 days 4 hours 58 min",
+    "image": "https://cdn.leekduck.com/cdn-cgi/image/fit=scale-down,height=95,quality=100,format=webp/assets/img/events/events-default-img.jpg",
+    "color": "rgb(192, 57, 43)"
+  },
+  {
+    "url": "https://leekduck.com/events/eggs-pedition-access-january-2025/",
+    "type": "Ticketed Event",
+    "name": "Eggs-pedition Access: January",
+    "date": "Fri, Jan 31, at 8:00 PM Local Time",
+    "endsOrStarts": "Ends",
+    "endsOrStartsTime": "21 days 2 hours 58 min",
+    "image": "https://cdn.leekduck.com/cdn-cgi/image/fit=scale-down,height=95,quality=100,format=webp/assets/img/events/article-images/2025/2025-01-01-eggs-pedition-access-january-2025/eggs-pedition-access-january.jpg",
+    "color": "rgb(222, 62, 155)"
+  },
+  {
+    "url": "https://leekduck.com/events/season-17-dual-destiny/",
+    "type": "Season",
+    "name": "Dual Destiny",
+    "date": "Tue, Mar 4, at 10:00 AM Local Time",
+    "endsOrStarts": "Ends",
+    "endsOrStartsTime": "52 days 16 hours 58 min",
+    "image": "https://cdn.leekduck.com/cdn-cgi/image/fit=scale-down,height=95,quality=100,format=webp/assets/img/events/article-images/2024/2024-12-03-season-17-dual-destiny/season-17-dual-destiny.jpg",
+    "color": "rgb(56, 173, 169)"
+  }
+]

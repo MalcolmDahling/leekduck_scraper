@@ -1,4 +1,4 @@
 PowerShell.exe -WindowStyle hidden{
-	cd C:\Users\Admin\Documents\Github\leekduck_scraper
+	cd C:\Users\macda\Documents\Github\leekduck_scraper
 	npm start
 }

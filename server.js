@@ -22,6 +22,7 @@ let options = { root: path.join(__dirname) };
 server.use(
   cors({
     origin: 'http://localhost:3030',
+    origin: '*',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
   }),

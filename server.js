@@ -4,7 +4,11 @@ const { getEvents } = require('./getEvents');
 const cors = require('cors');
 
 const server = express();
-server.use(cors());
+server.use(
+  cors({
+    origin: '*',
+  }),
+);
 const PORT = 3032;
 
 //update once at startup

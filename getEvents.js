@@ -6,6 +6,8 @@ async function getEvents(eventType) {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
 
+  console.log('Scraping...');
+
   try {
     await page.goto('https://leekduck.com/events/', { waitUntil: 'domcontentloaded' });
   } catch (err) {
@@ -16,7 +18,7 @@ async function getEvents(eventType) {
 
   try {
     events = await page.evaluate((eventType) => {
-      return Array.from(document.querySelectorAll(`body > div > article > div > div > div.events-list.${eventType}-events > span > a:not(.hide-event)`), (el) => {
+      return Array.from(document.querySelectorAll(`${eventType === 'current' ? '.events-section-live' : '.events-section-upcoming'} .event-item-link:not(.hide-event)`), (el) => {
         const url = el.href;
         const type = el.querySelector('div > p')?.textContent.trim();
         const name = el.querySelector('div > div > div > .event-text > h2')?.textContent.trim();
@@ -28,8 +30,8 @@ async function getEvents(eventType) {
           .replace('Starts:', '')
           .replace(/\s{2,}/g, ' ')
           .trim();
-        const image = el.querySelector('div > div > span > img')?.src.trim();
-        const color = window.getComputedStyle(el.querySelector('div')).backgroundColor;
+        const image = el.querySelector('.event-img-wrapper > img')?.src.trim();
+        const color = window.getComputedStyle(el.querySelector('.event-img-wrapper')).backgroundColor;
         return { url, type, name, date, endsOrStarts, endsOrStartsTime, image, color };
       });
     }, eventType);
@@ -37,7 +39,7 @@ async function getEvents(eventType) {
     console.log(err);
   }
 
-  console.log(events);
+  console.log('Event type:', eventType, '\nEvents:', events);
 
   const filePath = path.join(__dirname, 'output', `./${eventType}Events.json`);
   if (events.length > 0) {

@@ -18,12 +18,12 @@ getEvents('upcoming');
 //update every 30-35 minutes
 setInterval(() => {
   //random delay 2-5 min. this can overlap with the interval
-  const delayMs = Math.random() * (5 * 60_000 - 2 * 60_000) + 2 * 60_000;
+  const randDelay = Math.random() * (5 * 60_000 - 2 * 60_000) + 2 * 60_000;
 
   setTimeout(() => {
     getEvents('current');
     getEvents('upcoming');
-  }, delayMs);
+  }, randDelay);
 }, 1800000);
 
 let options = { root: path.join(__dirname) };

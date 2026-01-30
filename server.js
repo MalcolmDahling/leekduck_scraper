@@ -15,11 +15,16 @@ const PORT = 3032;
 getEvents('current');
 getEvents('upcoming');
 
-//update every 5 minutes
+//update every 30-35 minutes
 setInterval(() => {
-  getEvents('current');
-  getEvents('upcoming');
-}, 300000);
+  //random delay 2-5 min. this can overlap with the interval
+  const delayMs = Math.random() * (5 * 60_000 - 2 * 60_000) + 2 * 60_000;
+
+  setTimeout(() => {
+    getEvents('current');
+    getEvents('upcoming');
+  }, delayMs);
+}, 1800000);
 
 let options = { root: path.join(__dirname) };
 
